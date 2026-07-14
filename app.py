@@ -409,7 +409,7 @@ if predict:
         col1, col2, col3 = st.columns(3)
 
         col1.metric(
-            "Algorithm",
+            "Algorithm Name",
             type(model).__name__
         )
 
